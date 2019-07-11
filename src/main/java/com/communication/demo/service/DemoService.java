@@ -40,6 +40,7 @@ public class DemoService {
     public List<Demo> selectAll() {
 
         System.out.println("yes");
+        System.out.println("yes2");
         return demoMapper.selectAll();
     }
 
